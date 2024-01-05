@@ -1,0 +1,34 @@
+.swimming-pool-header{
+	background-image: url(images/artem-verbo-Vc8jfmzWoFE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 520px;
+    filter:brightness(80%);
+    box-shadow: inset 0 0 5px 2px #282a2d;
+}
+.main-text {
+    display: flex;
+    margin: 20px;
+}
+.img-pool-left{
+    float: left;
+    width: 500px;
+    height: 350px;
+    margin-right: 10px;
+}
+.img-pool-right {
+    float: right;
+    width: 500px;
+    height: 350px;
+    margin-right: 10px;
+
+}.main-text2 {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+p {
+    margin: 10px;
+}

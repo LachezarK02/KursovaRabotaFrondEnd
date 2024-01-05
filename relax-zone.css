@@ -1,0 +1,29 @@
+.main-first-row-relax {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+/*.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+}*/
+
+.header-relax{
+    background-image: url(images/mr-lee-f4RBYsY2hxA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 520px;
+    filter:brightness(80%);
+    box-shadow: inset 0 0 5px 2px #282a2d;
+}

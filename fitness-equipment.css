@@ -1,0 +1,50 @@
+.container  {
+    background-color: rgb(139, 174, 205);
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    background-color: grey;
+    margin: 1em 2.5em 1em 2.5em;
+    box-shadow: inset 0 0 5px 2px #282a2d;
+
+}
+
+.odd {
+    float: left;
+    padding: 1em 1em 1em 2em;
+
+}
+
+.even {
+    float: right;
+    padding: 1em 2em 1em 1em;
+
+}
+
+
+.image img {
+    width: 270px;
+    height: 270px;
+    border: 7px solid black;
+    border-radius: 5px;
+    
+}
+
+.text{
+    text-align: center;
+    color: white;
+    text-shadow: 1.4px 1.4px black;
+
+}
+
+h2 {
+    margin: 0.5em;
+}
+
+.text p {
+    font-size: 18px;
+    padding: 1em 1.5em 1em 1.5em;
+}
+

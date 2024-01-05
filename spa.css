@@ -1,0 +1,25 @@
+.spa-header{
+    background-image: url(images/ale-romo-CLiwQXx7kT8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 520px;
+    filter:brightness(80%);
+    box-shadow: inset 0 0 5px 2px #282a2d;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.text{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+}

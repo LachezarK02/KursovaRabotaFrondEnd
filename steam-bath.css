@@ -1,0 +1,9 @@
+.steam-bath-header {
+    background-image: url(images/huum-NHLS5hOSH0c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 520px;
+    filter:brightness(80%);
+    box-shadow: inset 0 0 5px 2px #282a2d;
+}

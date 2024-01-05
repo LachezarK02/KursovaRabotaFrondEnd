@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="schedules.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="schedules.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="section-top-bar">
+            <nav class="navigation-bar">
+
+                <ul class="navigation-bar-items">
+                    <div class="logo-header"><img src="images/6a9a3ca7ebcc574c42754ef323e76ae1.jpg" alt=""></div>
+
+                    <li class="nav-item"><a href="" class="link-item">HOME</a></li>
+                    <li class="nav-item"><a href="" class="link-item">ABOUT US</a></li>
+                    <li class="nav-item"><a href="schedules.html" class="link-item">TRAININGS</a></li>
+                    <li class="nav-item"><a href="trainers-page.html" class="link-item">TRAINERS</a></li>
+                    <li class="nav-item"><a href="relax-zone.html" class="link-item">RELAX ZONE</a></li>
+                    <li class="nav-item"><a href="contacts.html" class="link-item">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero-banner">
+            <h1 class="hero-banner-heading">Shedule Table</h1>
+        </div>
+    </div>
+    <table class="container">
+        <thead>
+            <tr>
+                <th>Coach name</th>
+                <th>Type of Training</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    <input type="text" id="searchField" />
+                    <button type="button" id="searchBtn">Search</button>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Kaloyan Mendeleev</td>
+                <td>Fitnes and Box</td>
+                <td>from 9 to 19 Every Day</td>
+            </tr>
+            <tr>
+                <td>Diana Marinova</td>
+                <td>Circle Training</td>
+                <td>from 9 to 19 Every Day</td>
+            </tr>
+            <tr>
+                <td>Kuncho Ahmedov</td>
+                <td>Swimming</td>
+                <td>from 10 to 17 Every Day</td>
+            </tr>
+            <tr>
+                <td>Daniela Ivanova</td>
+                <td>Yoga and Fitness</td>
+                <td>from 10 to 19 only Weekends</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="result"></div>
+
+    <div class="footer">
+        <div class="footer-heading">
+            <img src="images/6a9a3ca7ebcc574c42754ef323e76ae1.jpg" alt="" class="footer-logo">
+            <h2 class="footer-head">TOP G FITNESS</h2>
+            <p class="footer-adress">гр. Варна 9000, бул. Княз Борис 1С</p>
+            <p class="rights">&copy; All Rights Reserved</p>
+            <p class="authors">Designed By Lachkata and Asko</p>
+        </div>
+        <div class="go-up"><a href="#top">Go Up<i class="fa fa-long-arrow-up"></i></a></div>
+    </div>
+
+    <script>
+        solve();
+    </script>
+</body>
+</html>
