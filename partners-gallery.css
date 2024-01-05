@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-image: url(images-partners/header-partners-photo.jpg);
+    background-image: url(header-partners-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
